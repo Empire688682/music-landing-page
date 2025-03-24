@@ -5,7 +5,7 @@ export default function MusicPortfolio() {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-12 z-[99]">
       {/* Navbar */}
-      <nav className="w-full max-w-6xl flex justify-between items-center mx-2 py-4 px-6 bg-white/10 rounded-lg shadow-lg fixed top-0 backdrop-blur-md">
+      <nav className="w-full max-w-6xl flex justify-between items-center mx-2 py-4 px-6 bg-white/10 rounded-lg shadow-lg fixed top-0 backdrop-blur-md z-[999]">
         <h1 className="text-2xl font-bold">Burna</h1>
         <div className="space-x-6">
           <a href="#about" className="hover:text-white/80 transition">About</a>
