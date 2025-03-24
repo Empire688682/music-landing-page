@@ -28,7 +28,7 @@ export default function MusicPortfolio() {
       </nav>
 
       {/* Mobile Menu */}
-      <div className={`fixed top-0 right-0 w-2/3 h-full bg-black/90 backdrop-blur-lg p-6 transform transition-transform duration-300 ${menuOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}>
+      <div className={`fixed z-[888] top-0 right-0 w-2/3 h-full bg-black/90 backdrop-blur-lg p-6 transform transition-transform duration-300 ${menuOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}>
         <button
           onClick={() => setMenuOpen(false)}
           className="text-white text-3xl absolute top-4 right-4"
