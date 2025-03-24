@@ -110,7 +110,7 @@ export default function MusicPortfolio() {
               href="https://audiomack.com/burna-boy/album/love-damini-af-version"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-block bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
+              className="mt-6 text-sm inline-block bg-white text-purple-600 px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
             >
               Listen here
             </a>
@@ -130,9 +130,9 @@ export default function MusicPortfolio() {
               href="https://audiomack.com/burna-boy/album/i-told-them-af"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-block bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
+              className="mt-6 inline-block bg-white text-sm text-purple-600 px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
             >
-              Listen to My Work
+             Listen here
             </a>
           </div>
           <div className="bg-white/10 p-6 rounded-lg shadow-lg text-center hover:bg-white/20 transition">
@@ -149,9 +149,9 @@ export default function MusicPortfolio() {
               href="https://audiomack.com/burna-boy/album/twice-as-tall-africa"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-block bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
+              className="mt-6 inline-block bg-white text-purple-600 px-6 py-2 text-sm rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
             >
-              Listen to My Work
+             Listen here
             </a>
           </div>
           <div className="bg-white/10 p-6 rounded-lg shadow-lg text-center hover:bg-white/20 transition">
@@ -168,9 +168,9 @@ export default function MusicPortfolio() {
               href="https://audiomack.com/burna-boy/album/african-giant-af-version"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-block bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
+              className="mt-6 inline-block bg-white text-purple-600 px-6 py-2 text-sm rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
             >
-              Listen to My Work
+             Listen here
             </a>
           </div>
         </div>
