@@ -48,7 +48,7 @@ export default function MusicPortfolio() {
 
       {/* Hero Section */}
       <div
-        className="relative w-full h-screen mt-7 flex items-center justify-center text-center md:text-left bg-black rounded-lg shadow-lg overflow-hidden"
+        className="relative w-full h-screen flex items-center justify-center text-center md:text-left bg-black rounded-lg shadow-lg overflow-hidden"
         style={{
           backgroundImage: "url('/love-damini.jpeg')",
           backgroundSize: "cover",
