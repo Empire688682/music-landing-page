@@ -2,6 +2,10 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaSpotify, FaSoundcloud, FaInstagram, FaTwitter, FaYoutube, FaMusic, FaBars, FaTimes } from "react-icons/fa";
+import { Inter } from 'next/font/google';
+import { Pacifico } from 'next/font/google';
+
+const pacifico = Pacifico({ weight: '400', subsets: ['latin'] });
 
 export default function MusicPortfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -56,7 +60,7 @@ export default function MusicPortfolio() {
 
         {/* Content */}
         <div className="relative z-10 max-w-2xl p-6 text-center text-white">
-          <h1 className="md:text-5xl text-4xl font-semibold">Burna Fan Base</h1>
+        <h1 className={`md:text-5xl text-4xl font-semibold ${pacifico.className}`}>Burna Fan Base</h1>
           <div className="flex justify-center gap-4">
           <a
             href="https://audiomack.com/burna-boy"
