@@ -43,7 +43,7 @@ export default function MusicPortfolio() {
 
 
       {/* About Section */}
-      <div id="about" className="mt-16 max-w-3xl text-center">
+      <div id="about" className="mt-16 max-w-3xl px-6 text-center">
         <h2 className="text-3xl font-bold">About Burna Boy</h2>
         <p className="mt-4 text-white/80">Burna Boy, also known as the African Giant, is a Grammy Award-winning artist known for his unique fusion of Afrobeats, reggae, and dancehall.
           With powerful storytelling, deep-rooted African rhythms, and a charismatic stage presence, he has redefined global music.
@@ -52,7 +52,7 @@ export default function MusicPortfolio() {
       </div>
 
       {/* Music Projects */}
-      <div className="mt-16">
+      <div className="mt-16 px-6">
         <h2 className="text-3xl text-center font-bold mb-5">Albums</h2>
         <div id="music" className="w-full max-w-4xl justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white/10 p-6 rounded-lg shadow-lg text-center hover:bg-white/20 transition">
@@ -137,7 +137,7 @@ export default function MusicPortfolio() {
 
 
       {/* Contact Section */}
-      <div id="contact" className="mt-16 max-w-3xl text-center">
+      <div id="contact" className="mt-16 max-w-3xl text-center px-6">
         <h2 className="text-3xl font-bold">Get in Touch</h2>
         <p className="mt-4 text-white/80">For bookings, collaborations, or inquiries, reach out to me via email or social media.</p>
         <button className="mt-6 bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition">Contact Me</button>
@@ -167,7 +167,7 @@ export default function MusicPortfolio() {
 
 
       {/* Footer */}
-      <footer className="mt-16 w-full max-w-6xl text-center border-t border-white/20 py-6">
+      <footer className="mt-16 px-6 w-full max-w-6xl text-center border-t border-white/20 py-6">
         <p className="text-white/70">© {new Date().getFullYear()} Your Name. All Rights Reserved.</p>
       </footer>
     </div>
