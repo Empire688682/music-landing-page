@@ -1,8 +1,5 @@
 import Image from "next/image";
-import { icons } from "lucide-react";
-
-
-const { Spotify, SoundCloud, Instagram, Twitter, Youtube, Music2 } = icons;
+import { FaSpotify, FaSoundcloud, FaInstagram, FaTwitter, FaYoutube, FaMusic } from "react-icons/fa";
 
 export default function MusicPortfolio() {
   return (
@@ -52,7 +49,7 @@ export default function MusicPortfolio() {
 
       {/* Music Projects */}
       <div className="mt-16">
-        <h2 className="text-3xl text-center font-bold mb-5">Burna Boy Projects</h2>
+        <h2 className="text-3xl text-center font-bold mb-5">Albums</h2>
         <div id="music" className="w-full max-w-4xl justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white/10 p-6 rounded-lg shadow-lg text-center hover:bg-white/20 transition">
             <Image
@@ -142,27 +139,26 @@ export default function MusicPortfolio() {
         <button className="mt-6 bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition">Contact Me</button>
       </div>
 
-{/* Social Media & Contact */}
-<div className="mt-12 flex space-x-6">
-  <a href="https://open.spotify.com/artist/3wcj11K77LjEY1PkEazffa" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
-    <Spotify size={32} />
-  </a>
-  <a href="https://soundcloud.com/burnaboy" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
-    <Soundcloud size={32} />
-  </a>
-  <a href="https://www.instagram.com/burnaboygram/" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
-    <Instagram size={32} />
-  </a>
-  <a href="https://twitter.com/burnaboy" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
-    <Twitter size={32} />
-  </a>
-  <a href="https://www.youtube.com/c/BurnaBoyOfficial" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
-    <Youtube size={32} />
-  </a>
-  <a href="https://www.tiktok.com/@burnaboy" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
-    <Music size={32} />
-  </a>
-</div>
+      <div className="mt-12 flex space-x-6">
+        <a href="https://open.spotify.com/artist/3wcj11K77LjEY1PkEazffa" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
+          <FaSpotify size={32} />
+        </a>
+        <a href="https://soundcloud.com/burnaboy" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
+          <FaSoundcloud size={32} />
+        </a>
+        <a href="https://www.instagram.com/burnaboygram/" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
+          <FaInstagram size={32} />
+        </a>
+        <a href="https://twitter.com/burnaboy" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
+          <FaTwitter size={32} />
+        </a>
+        <a href="https://www.youtube.com/c/BurnaBoyOfficial" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
+          <FaYoutube size={32} />
+        </a>
+        <a href="https://www.tiktok.com/@burnaboy" target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition">
+          <FaMusic size={32} />
+        </a>
+      </div>
 
 
 
