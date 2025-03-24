@@ -14,7 +14,8 @@ export default function MusicPortfolio() {
       </nav>
 
       {/* Hero Section */}
-      <div className="text-center max-w-2xl mt-24">
+      <div className=" mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+      <div className="text-center md:text-left max-w-2xl">
         <h1 className="text-5xl font-extrabold">Oluwa Burna</h1>
         <p className="mt-4 text-lg text-white/80">Music Producer | Singer | Songwriter</p>
         <a
@@ -26,6 +27,15 @@ export default function MusicPortfolio() {
           Listen to My Work
         </a>
       </div>
+      <Image
+              src="/burna2.jpeg"
+              width={300}
+              height={200}
+              alt="Album Cover"
+              className="mx-auto rounded-full shadow-md w-full md:w-auto"
+              style={{objectFit:"cover"}}
+            />
+      </div>
 
       {/* About Section */}
       <div id="about" className="mt-16 max-w-3xl text-center">
@@ -36,7 +46,7 @@ export default function MusicPortfolio() {
       {/* Music Projects */}
       <div className="mt-16">
         <h2 className="text-3xl text-center font-bold mb-5">My Projects</h2>
-        <div id="music" className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div id="music" className="w-full max-w-4xl justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white/10 p-6 rounded-lg shadow-lg text-center hover:bg-white/20 transition">
             <Image
               src="/love-damini.jpeg"
