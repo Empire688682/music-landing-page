@@ -1,18 +1,46 @@
+"use client";
 import Image from "next/image";
-import { FaSpotify, FaSoundcloud, FaInstagram, FaTwitter, FaYoutube, FaMusic } from "react-icons/fa";
+import { useState } from "react";
+import { FaSpotify, FaSoundcloud, FaInstagram, FaTwitter, FaYoutube, FaMusic, FaBars, FaTimes } from "react-icons/fa";
 
 export default function MusicPortfolio() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-12 z-[99]">
       {/* Navbar */}
       <nav className="w-full max-w-6xl flex justify-between items-center mx-2 py-4 px-6 bg-white/10 rounded-lg shadow-lg fixed top-0 backdrop-blur-md z-[999]">
         <h1 className="text-2xl font-bold">Burna</h1>
-        <div className="space-x-6">
+
+        {/* Desktop Menu */}
+        <div className="hidden md:flex space-x-6">
           <a href="#about" className="hover:text-white/80 transition">About</a>
           <a href="#music" className="hover:text-white/80 transition">Music</a>
           <a href="#contact" className="hover:text-white/80 transition">Contact</a>
         </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="md:hidden text-white text-2xl"
+        >
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </button>
       </nav>
+
+      {/* Mobile Menu */}
+      <div className={`fixed top-0 right-0 w-2/3 h-full bg-black/90 backdrop-blur-lg p-6 transform transition-transform duration-300 ${menuOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}>
+        <button
+          onClick={() => setMenuOpen(false)}
+          className="text-white text-3xl absolute top-4 right-4"
+        >
+          <FaTimes />
+        </button>
+        <nav className="flex flex-col mt-16 space-y-6 text-xl">
+          <a href="#about" className="hover:text-white/80 transition" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="#music" className="hover:text-white/80 transition" onClick={() => setMenuOpen(false)}>Music</a>
+          <a href="#contact" className="hover:text-white/80 transition" onClick={() => setMenuOpen(false)}>Contact</a>
+        </nav>
+      </div>
 
       {/* Hero Section */}
       <div
@@ -28,8 +56,7 @@ export default function MusicPortfolio() {
 
         {/* Content */}
         <div className="relative z-10 max-w-2xl p-6 text-center text-white">
-          <h1 className="text-5xl font-extrabold">Burna Fan Base</h1>
-          <p className="mt-4 text-lg text-white/80">Music Producer | Singer | Songwriter</p>
+          <h1 className="md:text-5xl text-4xl font-semibold">Burna Fan Base</h1>
           <a
             href="https://audiomack.com/burna-boy"
             target="_blank"
