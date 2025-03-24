@@ -15,8 +15,19 @@ export default function MusicPortfolio() {
       </nav>
 
       {/* Hero Section */}
-      <div className=" mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-        <div className="text-center md:text-left max-w-2xl">
+      <div
+        className="relative w-full h-screen mt-16 flex items-center justify-center text-center md:text-left bg-black rounded-lg shadow-lg overflow-hidden"
+        style={{
+          backgroundImage: "url('/love-damini.jpeg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/50"></div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-2xl p-6 text-white">
           <h1 className="text-5xl font-extrabold">Oluwa Burna Fan Base</h1>
           <p className="mt-4 text-lg text-white/80">Music Producer | Singer | Songwriter</p>
           <a
@@ -28,15 +39,8 @@ export default function MusicPortfolio() {
             Listen to My Work
           </a>
         </div>
-        <Image
-          src="/burna2.jpeg"
-          width={300}
-          height={200}
-          alt="Album Cover"
-          className="mx-auto rounded-full shadow-md w-full md:w-auto"
-          style={{ objectFit: "cover" }}
-        />
       </div>
+
 
       {/* About Section */}
       <div id="about" className="mt-16 max-w-3xl text-center">
