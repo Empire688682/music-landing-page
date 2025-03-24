@@ -3,9 +3,9 @@ import { FaSpotify, FaSoundcloud, FaInstagram, FaTwitter, FaYoutube, FaMusic } f
 
 export default function MusicPortfolio() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center px-6 py-12 z-[99]">
+    <div className="min-h-screen bg-black text-white flex flex-col items-center py-12 z-[99]">
       {/* Navbar */}
-      <nav className="w-full max-w-6xl flex justify-between items-center py-4 px-6 bg-white/10 rounded-lg shadow-lg fixed top-0 backdrop-blur-md">
+      <nav className="w-full max-w-6xl flex justify-between items-center mx-2 py-4 px-6 bg-white/10 rounded-lg shadow-lg fixed top-0 backdrop-blur-md">
         <h1 className="text-2xl font-bold">Burna</h1>
         <div className="space-x-6">
           <a href="#about" className="hover:text-white/80 transition">About</a>
@@ -16,7 +16,7 @@ export default function MusicPortfolio() {
 
       {/* Hero Section */}
       <div
-        className="relative w-full h-screen mt-16 flex items-center justify-center text-center md:text-left bg-black rounded-lg shadow-lg overflow-hidden"
+        className="relative w-full h-screen mt-7 flex items-center justify-center text-center md:text-left bg-black rounded-lg shadow-lg overflow-hidden"
         style={{
           backgroundImage: "url('/love-damini.jpeg')",
           backgroundSize: "cover",
@@ -27,8 +27,8 @@ export default function MusicPortfolio() {
         <div className="absolute inset-0 bg-black/50"></div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-2xl p-6 text-white">
-          <h1 className="text-5xl font-extrabold">Oluwa Burna Fan Base</h1>
+        <div className="relative z-10 max-w-2xl p-6 text-center text-white">
+          <h1 className="text-5xl font-extrabold">Burna Fan Base</h1>
           <p className="mt-4 text-lg text-white/80">Music Producer | Singer | Songwriter</p>
           <a
             href="https://audiomack.com/burna-boy"
