@@ -50,7 +50,7 @@ export default function MusicPortfolio() {
       <div
         className="relative w-full h-screen flex items-center justify-center text-center md:text-left bg-black rounded-lg shadow-lg overflow-hidden"
         style={{
-          backgroundImage: "url('/love-damini.jpeg')",
+          backgroundImage: "url('https://res.cloudinary.com/dqdl5hnsd/image/upload/v1742829229/Burna-Boy-3-1_usbsm5.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -66,7 +66,7 @@ export default function MusicPortfolio() {
             href="https://audiomack.com/burna-boy"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 inline-block border border-purple-600 text-white font-semibold px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-600 transition"
+            className="mt-6 inline-block border border-white text-white font-semibold px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-600 transition"
           >
             Musics
           </a>
@@ -74,7 +74,7 @@ export default function MusicPortfolio() {
             href="https://www.youtube.com/channel/UCEzDdNqNkT-7rSfSGSr1hWg"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 inline-block border border-purple-600 text-white font-semibold px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-600 transition"
+            className="mt-6 inline-block border border-white text-white font-semibold px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-600 transition"
           >
             Videos
           </a>
@@ -112,7 +112,7 @@ export default function MusicPortfolio() {
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
             >
-              Listen to My Work
+              Listen here
             </a>
           </div>
 
