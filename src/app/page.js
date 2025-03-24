@@ -57,14 +57,24 @@ export default function MusicPortfolio() {
         {/* Content */}
         <div className="relative z-10 max-w-2xl p-6 text-center text-white">
           <h1 className="md:text-5xl text-4xl font-semibold">Burna Fan Base</h1>
+          <div className="flex justify-center gap-4">
           <a
             href="https://audiomack.com/burna-boy"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 inline-block bg-white text-purple-600 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-purple-100 transition"
+            className="mt-6 inline-block border border-purple-600 text-white font-semibold px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-600 transition"
           >
-            Listen to My Work
+            Musics
           </a>
+          <a
+            href="https://www.youtube.com/channel/UCEzDdNqNkT-7rSfSGSr1hWg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block border border-purple-600 text-white font-semibold px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-600 transition"
+          >
+            Videos
+          </a>
+          </div>
         </div>
       </div>
 
