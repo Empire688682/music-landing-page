@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MusicPortfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white flex flex-col items-center px-6 py-12 z-[99]">
+    <div className="min-h-screen bg-gradient-to-r from-black via-pink-500 to-black text-white flex flex-col items-center px-6 py-12 z-[99]">
       {/* Navbar */}
       <nav className="w-full max-w-6xl flex justify-between items-center py-4 px-6 bg-white/10 rounded-lg shadow-lg fixed top-0 backdrop-blur-md">
         <h1 className="text-2xl font-bold">Burna boy</h1>
